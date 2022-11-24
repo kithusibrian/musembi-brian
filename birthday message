@@ -1,0 +1,6 @@
+birth_year = int(input("Enter your birth year: "))
+age = str((2020 - birth_year))
+
+name = (input("Enter your name: "))
+message = ("Happy " + age + "th " + "birthday " + name + " ." )
+print(message)
